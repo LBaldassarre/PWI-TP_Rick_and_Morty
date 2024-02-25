@@ -1,11 +1,11 @@
 .nav-container {
-    height: 24vh;
+    height: fit-content;
     background-color: #344d67;
-    padding: 20px;
+    padding: 40px 30px;
+    transition: 1s;
 }
 
 .rm-h {
-    padding: 40px 80px;
     color: #6eccaf;
 }
 
@@ -13,10 +13,15 @@ h1:hover{
     color: #6eccaf !important;
 }
 
+.bi-list {
+    color: #6eccaf;
+}
+
 .nav-buttons {
     gap: 10px;
     padding: 25px;
     padding-right: 35px;
+    flex-direction: column;
 }
 
 .nav-link {
@@ -29,7 +34,24 @@ h1:hover{
     background-color: #6eccaf !important;
 }
 
-li a:hover {
+ul a:hover {
     color: #344d67 !important;
     background-color: #6eccaf !important;
+}
+
+@media (min-width: 768px) {
+
+    .rm-h {
+        padding: 40px 80px;
+        color: #6eccaf;
+    }
+
+    .nav-container {
+        height: 24vh;
+    }
+
+    .nav-buttons {
+        flex-direction: row;
+    }
+
 }

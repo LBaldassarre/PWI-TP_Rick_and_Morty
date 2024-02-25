@@ -4,10 +4,10 @@ import"./Home.css";
 
 export default function Home(){
     return(
-        <div className="container-fluid d-flex flex-column justify-content-center align-items-center vh-100">
+        <div className="container-fluid d-grid vh-100 w-100">
         
             <div className="container-home align-self-center">
-                <h1 className="h-1 text-center">Proyect Rick & Morty</h1>
+                <h1 className="h-1 text text-center">Proyect Rick & Morty</h1>
                 <h2 className="text-center mt-4">Welcome to Rick & Morty Proyect!</h2>
                 <p className="text-center mt-4">This proyect was made for practising React and to made a functional website.</p>
                 <p className="text-center mt-4">In this website you can know information of the characters of this animated series.</p>
