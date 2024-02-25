@@ -2,6 +2,9 @@
     height: fit-content;
     background-color: #344d67;
     padding: 40px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
     transition: 1s;
 }
 
