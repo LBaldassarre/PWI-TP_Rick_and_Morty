@@ -4,11 +4,8 @@ body {
   background-image: url("./rickymorty.jpg");
   background-size: cover;
   background-attachment: fixed;
-  
+  color: #344D67;
 }
 *{
   font-family: 'Raleway', sans-serif;
-}
-h1{
-  color: red;
 }

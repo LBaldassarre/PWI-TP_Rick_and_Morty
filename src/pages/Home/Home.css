@@ -1,11 +1,25 @@
-.bg-home{
+.container-home{
     background-color: rgba(255, 255, 255,0.9);
-    height: fit-content;
-    margin: 20%;
+    width: 600px;
+    height: 600px;
+    justify-self: center;
 }
-h1{
-    color: green;
+
+p {
+    margin-bottom: 0;
 }
+
+.h-1 {
+    font-size: 40px;
+    margin-top: 67px;
+}
+
+.home-buttons {
+    gap: 20px;
+    padding: 0;
+    margin-top: 2rem;
+}
+
 /* en este caso defini el color en index.css y en Home.css
 queda el de Home, por que es el "ultimo" definido.
 Esto hablando de gerarquia en caso que en dos componentes definamos el mismo selector en ambos archivos */
