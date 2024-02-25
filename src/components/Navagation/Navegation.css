@@ -22,14 +22,16 @@ h1:hover{
 
 .nav-buttons {
     gap: 10px;
-    padding: 25px;
-    padding-right: 35px;
+    padding: 50px 35px 0 25px ;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link {
     color: #6eccaf;
     padding: 8px !important;
+    width: fit-content;
 }
 
 .active{
