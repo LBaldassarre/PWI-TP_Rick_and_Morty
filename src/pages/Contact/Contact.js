@@ -1,29 +1,30 @@
+import "./Contact.css";
 import Navegation from "../../components/Navagation"
 
 export default function Contact(){
     return(
         <div>
             <Navegation hoja="Contact"/>
-            <main className="bg-primary m-5 text-white p-5">
-                <h1 className="text-white">Contact</h1>
-                    <p>Leave us your information so we can contact you</p>
-                <form action="creo usuario en formspree y pego el link si quiero...">
-                    <div className="row g-3">
-                        <div className="col">
-                            <label htmlFor="name">Name</label>
-                            <input type="text" className="form-control"  aria-label="First name" id="name"/>
+            <main className="d-flex justify-content-center">
+                <div className="contact-container d-flex flex-column justify-content-center aling-items-center mt-5">
+                    <h2 className="text-center text">Contact</h2>
+                    <h3 className="text-center mb-2 text">Leave us your information so we can contact you</h3>
+                    <form className="container-form justify-content-md-center p-4">
+                        <div className="d-flex flex-column">
+                            <label className="mb-2" htmlFor="name">Name</label>
+                            <input type="text" className="input rounded-2 p-2 border border-0 mb-2"  aria-label="First name" id="name"/>
                         </div>
-                        <div className="col">
-                            <label htmlFor="email">Email</label>
-                            <input type="email" className="form-control"  aria-label="Last name" id="email"/>
+                        <div className="d-flex flex-column">
+                            <label className="mb-2" htmlFor="email">Email</label>
+                            <input type="email" className="input rounded-2 p-2 border border-0 mb-2"  aria-label="Last name" id="email"/>
                         </div>
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="message" className="form-label">Message</label>
-                        <textarea className="form-control" id="message" rows="3"></textarea>
-                    </div>
-                    <input className="btn btn-success" type="submit" value="Send"/>
-                </form>
+                        <div className="d-flex flex-column">
+                            <label htmlFor="message" className="form-label mb-2">Message</label>
+                            <textarea className="area rounded-2 p-2 border border-0 mb-2" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <input className="btn btn-success" type="submit" value="Send"/>
+                    </form>
+                </div>
             </main>
         </div>
         
