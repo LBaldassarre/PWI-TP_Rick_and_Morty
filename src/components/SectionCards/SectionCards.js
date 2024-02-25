@@ -75,17 +75,19 @@ export default function SectionCards(){
     },[]);
     //a penas se cargue por primera vez el componente "SectionCards",ejecute la funcion traerPersonajes
     return(
-        <section className="fuenteBlanca">
-
+        <section className="d-flex flex-column align-items-center justify-content-center">
+            
 
             <Filters filterCharacter={filterCharacter}/>
-         
-            {
-                listaPersonajes.map((personaje)=>{
-                    // return  <Card key={personaje.id} infoPersonaje={personaje}/>
-                    return <Card key={personaje.id} infoPersonaje={personaje}/>
-                })
-            }
+
+            <div className='cards-container'>
+                {
+                    listaPersonajes.map((personaje)=>{
+                        // return  <Card key={personaje.id} infoPersonaje={personaje}/>
+                        return <Card key={personaje.id} infoPersonaje={personaje}/>
+                    })
+                }
+            </div>
             
         </section>
     )
