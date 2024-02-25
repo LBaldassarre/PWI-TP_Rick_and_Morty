@@ -1,4 +1,35 @@
+.nav-container {
+    height: 24vh;
+    background-color: #344d67;
+    padding: 20px;
+}
+
+.rm-h {
+    padding: 40px 80px;
+    color: #6eccaf;
+}
+
+h1:hover{
+    color: #6eccaf !important;
+}
+
+.nav-buttons {
+    gap: 10px;
+    padding: 25px;
+    padding-right: 35px;
+}
+
+.nav-link {
+    color: #6eccaf;
+    padding: 8px !important;
+}
+
 .active{
-    color: #344d67;
-    background-color: #6eccaf;
+    color: #344d67 !important;
+    background-color: #6eccaf !important;
+}
+
+li a:hover {
+    color: #344d67 !important;
+    background-color: #6eccaf !important;
 }
