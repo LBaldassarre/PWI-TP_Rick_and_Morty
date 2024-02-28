@@ -14,7 +14,7 @@ export default function Card({infoPersonaje}) {
 
     return(
        <div className="card rounded d-flex flex-row aling-items-center justify-content-between">
-        <div className="d-flex flex-column aling-items-center justify-content-between">
+        <div className="card-inner d-flex flex-column aling-items-center justify-content-between">
             <img className="img-card card-img-top" src={infoPersonaje.image}/>
             <h3 className="card-title text-center">{infoPersonaje.name}</h3>
             <button className={ hide === false ? "d-none" : "btn-card btn btn-active d-flex align-self-end m-0"} onClick={showMore}>Know More</button>

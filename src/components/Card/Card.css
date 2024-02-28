@@ -29,3 +29,7 @@
     color: #f5f5f5;
     font-size: 1.3rem;
 }
+
+.card-inner {
+    gap: 1rem;
+}

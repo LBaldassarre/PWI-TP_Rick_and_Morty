@@ -11,7 +11,7 @@ export default function Filters({filterCharacter}) {
                     <div className="filter-header d-flex align-items-center justify-content-between">
                         <h2 className="f-h navbar-brand">Filters</h2>
                         <div className="f-b align-items-center">
-                            <button class="filter-btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <button className="filter-btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <svg width="28" height="28" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line y1="3.5" x2="40" y2="3.5" stroke="#6ECCAF"/>
                                     <line y1="14.5" x2="40" y2="14.5" stroke="#6ECCAF"/>
