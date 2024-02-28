@@ -1,9 +1,13 @@
 .card{
     background-color: #223142;
-    height: fit-content;
-    width: fit-content;
+    height: 450px;
+    width: 330px;
     padding: 15px;
     margin: 15px;
+}
+
+.card-open {
+    height: 700px;
 }
 
 .img-card {
@@ -30,6 +34,18 @@
     font-size: 1.3rem;
 }
 
-.card-inner {
-    gap: 1rem;
+@media (min-width: 920px) {
+    .card-open {
+        height: 450px;
+        width: 630px;
+    }
+
+    .card-inner {
+        flex-direction: row !important;
+        gap: 30px;
+    }
+
+    .card-presentation {
+        width: 300px;
+    }
 }

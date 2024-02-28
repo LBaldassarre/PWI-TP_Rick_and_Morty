@@ -6,7 +6,7 @@ export default function Filters({filterCharacter}) {
 
     return(
         <nav className="navbar navbar-expand-lg justify-content-center align-items-center">
-            <div className="container-fluid d-flex justify-content-between align-items-center">
+            <div className="d-flex container-fluid gx-0 justify-content-between align-items-center">
                 <div className="aligner d-flex justify-content-center align-items-center">
                     <div className="filter-header d-flex align-items-center justify-content-between">
                         <h2 className="f-h navbar-brand">Filters</h2>
