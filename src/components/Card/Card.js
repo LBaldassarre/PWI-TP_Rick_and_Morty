@@ -13,16 +13,17 @@ export default function Card({infoPersonaje}) {
     }
 
     return(
-       <div className="rounded bg-primary card p-2 d-flex flex-row gap-3">
-        <div>
-            <img src={infoPersonaje.image}/>
-            <h3>{infoPersonaje.name}</h3>
-            <button className="btn btn-success w-50 p-2" onClick={showMore}>Know More...</button>
-        </div>
+       <div className="card rounded d-flex flex-row aling-items-center justify-content-between">
+        <div className="d-flex flex-column aling-items-center justify-content-between">
+            <img className="img-card card-img-top" src={infoPersonaje.image}/>
+            <h3 className="card-title text-center">{infoPersonaje.name}</h3>
+            <button className={ hide === false ? "d-none" : "btn-card btn btn-active d-flex align-self-end m-0"} onClick={showMore}>Know More</button>
 
-        {
-            hide === false? <Description status={infoPersonaje.status} especie={infoPersonaje.species} genero={infoPersonaje.gender} origen={infoPersonaje.origin.name} setHide={setHide}/>:''
-        }
+            {
+                hide === false? <div className="details-container rounded-2 d-flex flex-row justify-content-between aling-items-center"> <Description status={infoPersonaje.status} especie={infoPersonaje.species} genero={infoPersonaje.gender} origen={infoPersonaje.origin.name} setHide={setHide}/> </div>:''
+            }
+
+        </div>
 
        </div>
     )

@@ -1,3 +1,31 @@
 .card{
+    background-color: #223142;
+    height: fit-content;
     width: fit-content;
+    padding: 15px;
+    margin: 15px;
+}
+
+.img-card {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 300px;
+    width: 300px;
+}
+
+.card-title {
+    color: #6eccaf;
+    font-size: 2rem;
+}
+
+.btn-card {
+    background-color: #6eccaf;
+    color: #344d67;
+}
+
+.list-group-item {
+    background-color: #223142;
+    border: none;
+    color: #f5f5f5;
+    font-size: 1.3rem;
 }

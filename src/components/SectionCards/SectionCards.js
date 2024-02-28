@@ -80,7 +80,7 @@ export default function SectionCards(){
 
             <Filters filterCharacter={filterCharacter}/>
 
-            <div className='cards-container'>
+            <div className='cards-container d-flex row m-0 aling-items-center justify-content-center w-100 pt-5'>
                 {
                     listaPersonajes.map((personaje)=>{
                         // return  <Card key={personaje.id} infoPersonaje={personaje}/>
